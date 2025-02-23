@@ -1,0 +1,138 @@
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-image: url('https://w0.peakpx.com/wallpaper/440/261/HD-wallpaper-keyboard-laptop-gradient-colorful-technology.jpg');
+    background-size: cover;
+    margin: 0;
+}
+
+.background{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.keyboard{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 5px;
+}
+
+.key{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ff3366;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.key:hover{
+    background: linear-gradient(140deg, #ff3366, #333 /* #00eaff */);
+    transform: scale(1.05); 
+}
+
+.esc{grid-area:1/1/2/3;}
+.f1{grid-area:1/3/2/4;}
+.f2{grid-area:1/4/2/5;}
+.f3{grid-area:1/5/2/6;}
+.f4{grid-area:1/6/2/7;}
+.f5{grid-area:1/7/2/8;}
+.f6{grid-area:1/8/2/9;}
+.f7{grid-area:1/9/2/10;}
+.f8{grid-area:1/10/2/11;}
+.f9{grid-area:1/11/2/12;}
+.f10{grid-area:1/12/2/13;}
+.f11{grid-area:1/13/2/14;}
+.f12{grid-area:1/14/2/15;}
+.prtsc{grid-area:1/15/2/16;}
+.scroll{grid-area:1/16/2/17;}
+.pause{grid-area:1/17/2/18;}
+.tilde{grid-area:2/1/3/2;}
+.num1{grid-area:2/2/3/3;}
+.num2{grid-area:2/3/3/4;}
+.num3{grid-area:2/4/3/5;}
+.num4{grid-area:2/5/3/6;}
+.num5{grid-area:2/6/3/7;}
+.num6{grid-area:2/7/3/8;}
+.num7{grid-area:2/8/3/9;}
+.num8{grid-area:2/9/3/10;}
+.num9{grid-area:2/10/3/11;}
+.num0{grid-area:2/11/3/12;}
+.minus{grid-area:2/12/3/13;}
+.equals{grid-area:2/13/3/14;}
+.backspace{grid-area:2/14/3/17;}
+.lock{grid-area:2/17/3/18;}
+.division{grid-area:2/18/3/19;}
+.multiplication{grid-area:2/19/3/20;}
+.minus2{grid-area:2/20/3/21;}
+.tab{grid-area:3/1/4/4;}
+.q{grid-area:3/4/4/5;}
+.w{grid-area:3/5/4/6;}
+.e{grid-area:3/6/4/7;}
+.r{grid-area:3/7/4/8;}
+.t{grid-area:3/8/4/9;}
+.y{grid-area:3/9/4/10;}
+.u{grid-area:3/10/4/11;}
+.i{grid-area:3/11/4/12;}
+.o{grid-area:3/12/4/13;}
+.p{grid-area:3/13/4/14;}
+.lbracket{grid-area:3/14/4/15;}
+.rbracket{grid-area:3/15/4/16;}
+.backslash{grid-area:3/16/4/17;}
+.k7{grid-area:3/17/4/18;}
+.k8{grid-area:3/18/4/19;}
+.k9{grid-area:3/19/4/20;}
+.plus{grid-area:3/20/5/21;}
+.capslock{grid-area:4/1/5/4;}
+.a{grid-area:4/4/5/5;}
+.s{grid-area:4/5/5/6;}
+.d{grid-area:4/6/5/7;}
+.f{grid-area:4/7/5/8;}
+.g{grid-area:4/8/5/9;}
+.h{grid-area:4/9/5/10;}
+.j{grid-area:4/10/5/11;}
+.k{grid-area:4/11/5/12;}
+.l{grid-area:4/12/5/13;}
+.semicolon{grid-area:4/13/5/14;}
+.quote{grid-area:4/14/5/15;}
+.enter{grid-area:4/15/5/17;}
+.k4{grid-area:4/17/5/18;}
+.k5{grid-area:4/18/5/19;}
+.k6{grid-area:4/19/5/20;}
+.shift{grid-area:5/1/6/4;}
+.z{grid-area:5/4/6/5;}
+.x{grid-area:5/5/6/6;}
+.c{grid-area:5/6/6/7;}
+.v{grid-area:5/7/6/8;}
+.b{grid-area:5/8/6/9;}
+.n{grid-area:5/9/6/10;}
+.m{grid-area:5/10/6/11;}
+.comma{grid-area:5/11/6/12;}
+.period{grid-area:5/12/6/13;}
+.slash{grid-area:5/13/6/14;}
+.shift-right{grid-area:5/14/6/16;}
+.k1{grid-area:5/17/6/18;}
+.k2{grid-area:5/18/6/19;}
+.k3{grid-area:5/19/6/20;}
+.Enter{grid-area:5/20/7/21;}
+.ctrl-left{grid-area:6/1/7/3;}
+.fn{grid-area:6/3/7/4;}
+.win{grid-area:6/4/7/5;}
+.alt-left{grid-area:6/5/7/6;}
+.space{grid-area:6/6/6/12;}
+.alt-right{grid-area:6/12/7/13;}
+.win-right{grid-area:6/13/7/14;}
+.ctrl-right{grid-area:6/14/7/15;}
+.arrow-left{grid-area:6/15/7/16;}
+.arrow-up{grid-area:5/16/6/17;}
+.arrow-down{grid-area:6/16/7/17;}
+.arrow-right{grid-area:6/17/7/18;}
+.k0{grid-area:6/18/7/19;}
+.dot{grid-area:6/19/7/20;}
