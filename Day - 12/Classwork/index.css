@@ -1,0 +1,43 @@
+body{
+    background-image: url("https://png.pngtree.com/background/20230616/original/pngtree-faceted-abstract-background-in-3d-with-shimmering-iridescent-metallic-texture-of-picture-image_3653595.jpg");
+}
+
+
+#parent{
+    width: 25%;
+    border: 1px solid gray;
+    text-align: center;
+    margin: auto;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+input{
+    width: 87%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#parent>form>button{
+    padding: 10px;
+    width: 50%;
+    border: none;
+    background-color: aqua;
+    margin: 20px;
+}
+
+#parent>form>button:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(146, 245, 245);
+
+}
+table{
+    color: white;
+}
+
+table, td{
+    border: 1px solid green;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: auto;
+}
